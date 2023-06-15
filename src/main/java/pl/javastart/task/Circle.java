@@ -14,4 +14,8 @@ public class Circle {
     public void setRadius(double radius) {
         this.radius = radius;
     }
+
+    public double calculateCircleArea() {
+        return 3.14159 * (getRadius() * getRadius());
+    }
 }

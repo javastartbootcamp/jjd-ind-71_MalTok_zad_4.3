@@ -8,18 +8,16 @@ public class Main {
         Circle circle = new Circle(2);
         Triangle triangle = new Triangle(2, 5, 3);
 
-        ShapeCalculator calc = new ShapeCalculator();
-
-        double squareArea = calc.calculateSquareArea(square);
+        double squareArea = square.calculateSquareArea();
         System.out.println("Pole kwadratu: " + squareArea);
 
-        double circleArea = calc.calculateCircleArea(circle);
+        double circleArea = circle.calculateCircleArea();
         System.out.println("Pole koła: " + circleArea);
 
-        double rectanglePerimeter = calc.calculateRectPerimeter(rectangle);
+        double rectanglePerimeter = rectangle.calculateRectPerimeter();
         System.out.println("Obwód prostokąta: " + rectanglePerimeter);
 
-        double trianglePerimeter = calc.calculateTrianglePerimeter(triangle);
+        double trianglePerimeter = triangle.calculateTrianglePerimeter();
         System.out.println("Obwód trójkąta: " + trianglePerimeter);
     }
 }
