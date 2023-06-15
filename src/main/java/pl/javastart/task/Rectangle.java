@@ -26,6 +26,6 @@ public class Rectangle {
     }
 
     public double calculateRectPerimeter() {
-        return 2 * getSideA() + 2 * getSideB();
+        return 2 * sideA + 2 * sideB;
     }
 }

@@ -36,6 +36,6 @@ public class Triangle {
     }
 
     public double calculateTrianglePerimeter() {
-        return getSideA() + getSideB() + getSideC();
+        return sideA + sideB + sideC;
     }
 }

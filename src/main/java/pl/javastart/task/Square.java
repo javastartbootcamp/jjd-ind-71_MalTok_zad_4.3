@@ -16,6 +16,6 @@ public class Square {
     }
 
     public double calculateSquareArea() {
-        return getSideA() * getSideA();
+        return sideA * sideA;
     }
 }
